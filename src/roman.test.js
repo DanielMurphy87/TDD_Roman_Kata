@@ -1,5 +1,5 @@
-import {numToRoman, } from './roman';  //using the ES6 modules 
+import { numToRoman } from './roman';  //using the ES6 modules 
 
-test ('add 3 + 4 should equals 7', () => {
-  expect(sum(3,4)).toBe(7)
+test ('should return the correct Roman numeral for the given integer', () => {
+  expect(numToRoman(1)).toBe("I");
 });
